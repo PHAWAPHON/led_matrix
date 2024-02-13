@@ -140,7 +140,9 @@ class _LedMatrixState extends State<LedMatrix> {
       margin: const EdgeInsets.all(2),
       decoration: BoxDecoration(
         shape: BoxShape.circle,
-        color: dots[i][j] == 1 ? Color(0xFF00FF00) : Color.fromARGB(255, 64, 54, 54),
+        color: dots[i][j] == 1
+            ? Color(0xFF00FF00)
+            : Color.fromARGB(255, 64, 54, 54),
       ),
     );
   }
