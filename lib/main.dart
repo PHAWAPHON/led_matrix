@@ -141,7 +141,7 @@ class _LedMatrixState extends State<LedMatrix> {
       decoration: BoxDecoration(
         shape: BoxShape.circle,
         color: dots[i][j] == 1
-            ? Color(0xFF00FF00)
+            ? Color.fromARGB(255, 18, 255, 18)
             : Color.fromARGB(255, 64, 54, 54),
       ),
     );
