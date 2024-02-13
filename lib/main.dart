@@ -135,8 +135,8 @@ class _LedMatrixState extends State<LedMatrix> {
   Widget _buildDot(int num, int i, int j) {
     var dots = dotsList[num];
     return Container(
-      width: 20,
-      height: 20,
+      width: 22,
+      height: 22,
       margin: const EdgeInsets.all(2),
       decoration: BoxDecoration(
         shape: BoxShape.circle,
